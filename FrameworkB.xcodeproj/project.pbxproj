@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B91D6AD225CDD59500309105 /* FrameworkB.h in Headers */ = {isa = PBXBuildFile; fileRef = B91D6AD025CDD59500309105 /* FrameworkB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B91D6AEE25CDD7B900309105 /* FrameBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D6AED25CDD7B900309105 /* FrameBView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B91D6ACD25CDD59500309105 /* FrameworkB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91D6AD025CDD59500309105 /* FrameworkB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkB.h; sourceTree = "<group>"; };
 		B91D6AD125CDD59500309105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B91D6AED25CDD7B900309105 /* FrameBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				B91D6AD025CDD59500309105 /* FrameworkB.h */,
 				B91D6AD125CDD59500309105 /* Info.plist */,
+				B91D6AED25CDD7B900309105 /* FrameBView.swift */,
 			);
 			path = FrameworkB;
 			sourceTree = "<group>";
@@ -94,6 +97,7 @@
 				TargetAttributes = {
 					B91D6ACC25CDD59500309105 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B91D6AEE25CDD7B900309105 /* FrameBView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		B91D6AD625CDD59500309105 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = DGYJ3R2C9F;
@@ -277,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Panucci.FrameworkB;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +292,7 @@
 		B91D6AD725CDD59500309105 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = DGYJ3R2C9F;
