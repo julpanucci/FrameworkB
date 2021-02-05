@@ -20,8 +20,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "FrameworkB",
+			dependencies: []),
 			exclude: ["Sources/FrameworkB/Info.plist"],
-            dependencies: []),
         .testTarget(
             name: "FrameworkBTests",
             dependencies: ["FrameworkB"]),
