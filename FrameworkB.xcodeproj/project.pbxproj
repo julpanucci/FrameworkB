@@ -32,7 +32,7 @@
 		B91D6AC325CDD59500309105 = {
 			isa = PBXGroup;
 			children = (
-				B91D6ACF25CDD59500309105 /* FrameworkB */,
+				B91D6AF225CDD85D00309105 /* Sources */,
 				B91D6ACE25CDD59500309105 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +53,14 @@
 				B91D6AED25CDD7B900309105 /* FrameBView.swift */,
 			);
 			path = FrameworkB;
+			sourceTree = "<group>";
+		};
+		B91D6AF225CDD85D00309105 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B91D6ACF25CDD59500309105 /* FrameworkB */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +281,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FrameworkB/Info.plist;
+				INFOPLIST_FILE = Sources/FrameworkB/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,7 +307,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FrameworkB/Info.plist;
+				INFOPLIST_FILE = Sources/FrameworkB/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
