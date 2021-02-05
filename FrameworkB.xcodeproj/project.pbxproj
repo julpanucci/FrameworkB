@@ -3,14 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B91D6AD225CDD59500309105 /* FrameworkB.h in Headers */ = {isa = PBXBuildFile; fileRef = B91D6AD025CDD59500309105 /* FrameworkB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B91D6AEE25CDD7B900309105 /* FrameBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D6AED25CDD7B900309105 /* FrameBView.swift */; };
-		B91D6B2D25CDEA1600309105 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D6B2B25CDEA1600309105 /* Package.swift */; };
-		B91D6B2E25CDEA1600309105 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B91D6B2C25CDEA1600309105 /* README.md */; };
+		B91D6B3425CDF2BB00309105 /* colorChanger in Frameworks */ = {isa = PBXBuildFile; productRef = B91D6B3325CDF2BB00309105 /* colorChanger */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B91D6B3425CDF2BB00309105 /* colorChanger in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +89,9 @@
 			dependencies = (
 			);
 			name = FrameworkB;
+			packageProductDependencies = (
+				B91D6B3325CDF2BB00309105 /* colorChanger */,
+			);
 			productName = FrameworkB;
 			productReference = B91D6ACD25CDD59500309105 /* FrameworkB.framework */;
 			productType = "com.apple.product-type.framework";
@@ -116,6 +119,9 @@
 				Base,
 			);
 			mainGroup = B91D6AC325CDD59500309105;
+			packageReferences = (
+				B91D6B3225CDF2BB00309105 /* XCRemoteSwiftPackageReference "colorChanger" */,
+			);
 			productRefGroup = B91D6ACE25CDD59500309105 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +136,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B91D6B2E25CDEA1600309105 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +146,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B91D6B2D25CDEA1600309105 /* Package.swift in Sources */,
 				B91D6AEE25CDD7B900309105 /* FrameBView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +348,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B91D6B3225CDF2BB00309105 /* XCRemoteSwiftPackageReference "colorChanger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/julpanucci/colorChanger.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B91D6B3325CDF2BB00309105 /* colorChanger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B91D6B3225CDF2BB00309105 /* XCRemoteSwiftPackageReference "colorChanger" */;
+			productName = colorChanger;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B91D6AC425CDD59500309105 /* Project object */;
 }

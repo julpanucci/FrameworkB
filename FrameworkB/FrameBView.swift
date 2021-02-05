@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import colorChanger
 import UIKit
 
 public class FrameBView: UIView {
@@ -20,5 +21,6 @@ public class FrameBView: UIView {
 	
 	public func doSomething() {
 		print("Do something")
+		ColorChanger.shared.changeColor(view: self)
 	}
 }
