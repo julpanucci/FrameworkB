@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B91D6AD225CDD59500309105 /* FrameworkB.h in Headers */ = {isa = PBXBuildFile; fileRef = B91D6AD025CDD59500309105 /* FrameworkB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B91D6AEE25CDD7B900309105 /* FrameBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D6AED25CDD7B900309105 /* FrameBView.swift */; };
+		B91D6B2D25CDEA1600309105 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D6B2B25CDEA1600309105 /* Package.swift */; };
+		B91D6B2E25CDEA1600309105 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B91D6B2C25CDEA1600309105 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		B91D6AD025CDD59500309105 /* FrameworkB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkB.h; sourceTree = "<group>"; };
 		B91D6AD125CDD59500309105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B91D6AED25CDD7B900309105 /* FrameBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBView.swift; sourceTree = "<group>"; };
+		B91D6B2B25CDEA1600309105 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		B91D6B2C25CDEA1600309105 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 		B91D6AC325CDD59500309105 = {
 			isa = PBXGroup;
 			children = (
+				B91D6B2B25CDEA1600309105 /* Package.swift */,
+				B91D6B2C25CDEA1600309105 /* README.md */,
 				B91D6ACF25CDD59500309105 /* FrameworkB */,
 				B91D6ACE25CDD59500309105 /* Products */,
 			);
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B91D6B2E25CDEA1600309105 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B91D6B2D25CDEA1600309105 /* Package.swift in Sources */,
 				B91D6AEE25CDD7B900309105 /* FrameBView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
